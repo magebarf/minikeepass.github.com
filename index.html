@@ -1,40 +1,42 @@
 <html>
 <head>
-  <title>MiniKeePass</title>
-  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-  <script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+<title>MiniKeePass</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
 
-  <!-- Screenshot fade in/out -->
-  <script type="text/javascript">
-    var elements;
-    var i = 0;
+<!-- Screenshot fade in/out -->
+<script type="text/javascript">
+  var elements;
+  var i = 0;
 
-    $(document).ready(function() {
-      elements = $("#iphone-screenshots img");
-      setTimeout("updateScreenshot()", 4000);
-    });
+  $(document).ready(function() {
+    elements = $("#iphone-screenshots img");
+    setTimeout("updateScreenshot()", 4000);
+  });
 
-    function updateScreenshot() {
-      $(elements[i]).fadeOut("slow");
-      i = (i + 1) % elements.length;
-      $(elements[i]).fadeIn("slow");
+  function updateScreenshot() {
+    $(elements[i]).fadeOut("slow");
+    i = (i + 1) % elements.length;
+    $(elements[i]).fadeIn("slow");
 
-      setTimeout("updateScreenshot()", 4000);
-    }
-  </script>
+    setTimeout("updateScreenshot()", 4000);
+  }
+</script>
 
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-19206376-3']);
-    _gaq.push(['_trackPageview']);
+<!-- Google Analytics -->
+<script type="text/javascript">
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19206376-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
 <body>
