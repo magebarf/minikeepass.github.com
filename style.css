@@ -69,8 +69,26 @@ p {
 }
 
 #page {
+  margin-left: 40px;
   padding-top: 2em;
   width: 500px;
+}
+
+.features {
+  width: 540px;
+  overflow: hidden;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features li {
+  width: 220px;
+  float: left;
+  margin-right: 40px;
+  padding-bottom: 3em;
+  font-size: 1em;
 }
 
 #iphone {
@@ -79,7 +97,7 @@ p {
   right: 40px;
   width: 230px;
   height: 500px;
-  background: url('iphone.jpeg') top left no-repeat;
+  background: url('iphone.png') top left no-repeat;
 }
 
 #iphone-screenshots {
