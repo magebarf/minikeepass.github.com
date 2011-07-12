@@ -82,7 +82,7 @@ p {
 }
 
 .features ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 .features li {
@@ -91,6 +91,7 @@ p {
   margin-right: 40px;
   padding-bottom: 30px;
   font-size: 1em;
+  list-style-type: none;
 }
 
 #iphone {
