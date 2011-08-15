@@ -94,24 +94,19 @@ p {
   list-style-type: none;
 }
 
-.buttons {
-                margin-left: auto;
-                margin-right: auto;
+.buttons ul {
+  margin-top: 1em;
   text-align: center;
 }
 
-.buttons ul {
-display: inline;
-float: left;
-list-style-type: none;
-padding-right: 20px;
+.buttons li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }
 
-.buttons li {
-display: inline;
-float: left;
-list-style-type: none;
-padding-right: 20px;
+.buttons form {
+  display: inline;
 }
 
 #iphone {
